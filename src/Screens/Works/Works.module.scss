@@ -1,0 +1,214 @@
+@import '../../Index.scss';
+
+.main_works {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(24, 24, 24, 0.01),
+    #242323,
+    #222222,
+    rgba(255, 165, 0, 0.01)
+  );
+  @include media('mobile') {
+    padding-bottom: 5rem;
+  }
+
+  .works_head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include media('mobile') {
+      margin-top: 2rem;
+    }
+    h2 {
+      color: #ffffff;
+      font-size: 60px;
+      letter-spacing: 0.135em;
+      margin: 0 0 22px;
+      text-transform: uppercase;
+      font-family: Lemons-Bold;
+      @include media('mobile') {
+        font-size: 30px;
+      }
+      span {
+        color: #3a8bae;
+      }
+    }
+  }
+  .joining {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    @include media('mobile') {
+      width: 100%;
+    }
+    .firstSection {
+      background-color: #3a8bae;
+      width: 24rem;
+      height: 4rem;
+      margin-bottom: 3rem;
+
+      @include media('mobile') {
+        width: 17rem;
+      }
+      p {
+        position: relative;
+        top: 20px;
+        text-align: center;
+        color: #ffffff;
+        font-family: Lemons-Regular;
+        @include media('mobile') {
+          font-size: 16px;
+        }
+      }
+    }
+    .heading {
+      padding-top: 1rem;
+      h1 {
+        font-family: Lemons-Bold;
+        font-size: 44px;
+        @include media('mobile') {
+          font-size: 26px;
+        }
+      }
+    }
+    .content1 {
+      p {
+        font-family: Lemons-Light;
+        font-size: 16px;
+      }
+    }
+    .content2 {
+      position: relative;
+      bottom: 15px;
+      padding: 1rem 0;
+      a {
+        font-family: Lemons-Regular;
+        font-size: 14px;
+      }
+    }
+    .buttons {
+      padding: 1rem 0;
+      .maxBtn {
+        width: 80px;
+        margin-left: 5px;
+        font-family: 'Lemons-Regular';
+      }
+      button {
+        cursor: pointer;
+        user-select: none;
+        padding: 8px 15px;
+        justify-content: center;
+        border: unset;
+        border-radius: 6px;
+        background-color: #fff;
+        transition: all 175ms ease;
+        color: #353945;
+        font-size: 19px;
+        line-height: 20px;
+        font-weight: 900;
+        width: 3em;
+        height: 2.5em;
+        transition: all 0.5s ease !important;
+      }
+
+      h1 {
+        font-size: 4.5em;
+        font-family: 'Lemons-Regular';
+        margin-bottom: unset;
+        margin-left: 15%;
+        margin-right: 15%;
+        color: #fff;
+        text-align: center;
+        width: 1.5em;
+      }
+
+      button:hover {
+        background-color: rgba(0, 0, 0, 0.65) !important;
+        color: #60cfff;
+        transition: all 0.5s ease !important;
+      }
+
+      input {
+        width: 50px;
+        height: 50px;
+        margin: 0 0.3rem;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        font-size: 24px;
+        font-family: Lemons-Regular;
+        text-align: center;
+        background-color: #ffffff;
+      }
+    }
+    .mintButton {
+      justify-content: center !important;
+      padding: 2rem 0;
+      button {
+        // border-radius: 40px;
+        width: 100%;
+        height: 4rem;
+        background-color: #3a8bae;
+        color: #ffffff;
+        font-family: Lemons-Regular;
+        font-size: 2em;
+        border: none;
+        transition: all 0.5s ease !important;
+      }
+
+      p {
+        font-size: 2em;
+        font-weight: 900;
+        color: #fff;
+      }
+
+      button:hover {
+        background-color: rgba(0, 0, 0, 0.65) !important;
+        color: #60cfff;
+        transition: all 0.5s ease !important;
+      }
+    }
+    .supplyInfo {
+      display: flex;
+      color: black;
+      font-size: 14px;
+      font-family: Lemons-Regular;
+    }
+    .minted {
+      span {
+        font-size: 1.3em;
+        color: #fff;
+        font-family: 'Lemons-Regular';
+        font-weight: 900;
+      }
+    }
+    .mintingpart {
+      div {
+        display: flex;
+        justify-content: space-between;
+      }
+      width: 35em;
+      display: flex;
+      flex-direction: column;
+      @include media("mobile"){
+        width: 20rem;
+      }
+    }
+    .transacInfo {
+      color: black;
+      font-size: 14px;
+      font-family: Lemons-Regular;
+    }
+  }
+}

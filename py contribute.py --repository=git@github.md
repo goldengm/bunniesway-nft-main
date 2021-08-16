@@ -1,0 +1,1 @@
+py contribute.py --repository=git@github.com:goldengm/bunniesway-nft-main.git -sd="2021/08/15, 14:14:00" -nw

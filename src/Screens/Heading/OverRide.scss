@@ -1,0 +1,11 @@
+.scrollable {
+  background: rgba(0, 0, 0, 0.65) !important;
+  padding: 0 !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .scrollable {
+    padding: 0 0.5rem !important;
+  }
+}
